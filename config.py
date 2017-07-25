@@ -1,0 +1,4 @@
+CACHE_DIR = 'cache/data'
+EXTERNAL_EXPIRE_TIME = 10*60
+LONG_EXPIRE_TIME = 5*24*60*60
+CACHE_LOG = 'cache/load.log'

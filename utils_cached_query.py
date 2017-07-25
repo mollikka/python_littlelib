@@ -6,8 +6,8 @@ from urllib.request import Request, urlopen
 from urllib.error import URLError
 from hashlib import md5
 
-from config import CACHE_DIR, CACHE_LOG, EXTERNAL_EXPIRE_TIME
-from utils_log import Logger
+from .config import CACHE_DIR, CACHE_LOG, EXTERNAL_EXPIRE_TIME
+from .utils_log import Logger
 
 if not exists(CACHE_DIR):
     makedirs(CACHE_DIR)
